@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/f3766a0f67.js" crossorigin="anonymous"></script>
+  <script src="main.js" defer></script>
   <title>Frontend Mentor | Article preview component</title>
 
 </head>
@@ -16,26 +18,41 @@
           <img src="images\drawers.jpg" alt="">
         </picture>
       </section>
-      <section class="texto-descritivo-compartilhamento">
-        <h1>Shift the overall look and feel by adding these wonderful 
-          touches to furniture in your home</h1>
-        <p>Ever been in a room and felt like something was missing? Perhaps 
+      <section class="texto-e-perfil">
+        <section class="texto-descritivo">
+          <div class="texto">
+            <h1>Shift the overall look and feel by adding these wonderful 
+            touches to furniture in your home</h1>
+            <p>Ever been in a room and felt like something was missing? Perhaps 
             it felt slightly bare and uninviting. I’ve got some simple tips 
             to help you make any room feel complete.</p>
-        <div class="compartilhamento">
-          <span>Share</span>
-          <a href="#"><img src="images\icon-facebook.svg" alt=""></a>
-          <a href="#"><img src="images\icon-twitter.svg" alt=""></a>
-          <a href="#"><img src="images\icon-pinterest.svg" alt=""></a>
-        </div>
-        <div class="perfil-foto-nome">
-          <img src="images\avatar-michelle.jpg" alt="">
-          <div class="nome-data">
-            <p class="nome">Michelle Appleton</p>
-            <p class="data">28 Jun 2020</p>
           </div>
-          <img src="images\icon-share.svg" alt="">
-        </div>
+        </section>
+        <section class="compartilhamento-perfil">
+          <div class="compartilhamento">
+            <div class="links">
+            <span>Share</span>
+              <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+            <div class="icone-compart">
+              <img src="images\icon-share.svg" alt="">
+            </div>
+          </div>
+          <div class="perfil-foto-nome">
+            <div class="foto-nome-data">
+              <img class="foto-perfil" src="images\avatar-michelle.jpg" alt="">
+              <div class="nome-data">
+                <p class="nome">Michelle Appleton</p>
+                <p class="data">28 Jun 2020</p>
+              </div>
+            </div>
+            <div class="icone-compart">
+              <img src="images\icon-share.svg" alt="">
+            </div>
+          </div>
+        </section>
       </section>
     </div>
   </main>
